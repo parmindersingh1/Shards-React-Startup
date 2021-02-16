@@ -33,12 +33,12 @@ DefaultLayout.propTypes = {
   /**
    * Whether to display the footer, or not.
    */
-  noFooter: PropTypes.bool
+  noFooter: PropTypes.bool,
 };
 
 DefaultLayout.defaultProps = {
   noNavbar: false,
-  noFooter: false
+  noFooter: false,
 };
 
 export default DefaultLayout;
